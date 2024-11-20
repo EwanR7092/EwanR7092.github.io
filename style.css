@@ -19,7 +19,7 @@
 
 .home {
     min-height: 100vh;
-    background:url('purple.jpg') no-repeat;
+    background: rgb(102, 0, 165);
     background-size: cover;
     background-position: center;
 }
@@ -31,7 +31,7 @@
     z-index: 1;
     top: 0;
     left: 0;
-    background: black;
+    background:url('firewatchPurple.jpg') no-repeat;
     overflow-x: hidden;
     padding-top: 150px;
     padding-right: 0px;
@@ -49,23 +49,25 @@
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 40px;
-    color: rgb(161, 161, 161);
+    color: grey;
     display: block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
 
 .main .heading {
     padding: 0px;
-    background-color: black;
+    background-color: rgb(102, 0, 165);
     width: 100%;
     height: 150px;
     margin: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }
 
 .main h1 {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 90px;
-    color: rgb(161, 161, 161);
+    color: white;
     display: block;
     text-align: center;
 }
@@ -83,8 +85,8 @@
 }
 
 .content .content-box {
-    width: 420px;
-    height: 420px;
+    width: 340px;
+    height: 340px;
     background-color: transparent;
     box-shadow: 0 0 10px rgba(0, 0, 0, .2);
     color: #fff;
@@ -96,8 +98,8 @@
 }
 
 .content .content-box:hover {
-    width: 480px;
-    height: 480px;
+    width: 400px;
+    height: 400px;
 }
 
 .sidenav a:hover {
